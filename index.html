@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Resignation</title>
+  </head>
+  <body>
+    <h1>Resignation Letter Generator</h1>
+
+    <div class="container">
+      <p class="instruction">
+        Fill out the form below to automatically generate a formal resignation
+        letter. Required fields are marked with an asterisk (*).
+      </p>
+
+      <form id="ResignForm">
+        <label for="name">Full Name *</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="e.g., Juan Dela Cruz"
+          required
+        />
+
+        <label for="position">Your Position *</label>
+        <input
+          type="text"
+          id="position"
+          placeholder="e.g., Software Engineer"
+          required
+        />
+
+        <label for="company">Company Name *</label>
+        <input
+          type="text"
+          id="company"
+          placeholder="e.g., ABC Corporation"
+          required
+        />
+
+        <label for="manager">Manager's Name</label>
+        <input type="text" id="manager" placeholder="e.g., Maria Santos" />
+
+        <label for="date">Date of Resignation *</label>
+        <input type="date" id="date" required />
+
+        <label for="reason"
+          >Reason for Leaving <span class="optional">(Optional)</span></label
+        >
+        <textarea
+          id="reason"
+          rows="3"
+          placeholder="e.g., pursuing new opportunities"
+        ></textarea>
+
+        <button type="button" onclick="Generate()">Generate Letter</button>
+      </form>
+    </div>
+
+    <div id="letterContainer" class="letter">
+      <!-- Generated letter appears here -->
+    </div>
+
+    <footer class="credits">Created by Chester Andrei Garcia</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
