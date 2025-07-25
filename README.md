@@ -10,7 +10,7 @@ A simple, responsive web app that allows users to automatically generate a forma
 - 🖋 Clean, modern UI with user-friendly experience
 
 ## 🚀 Live Demo
-
+👉 [Try it here on Vercel](https://resignation-letter-generator.vercel.app/)
 
 
 ## 📁 File Structure
