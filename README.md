@@ -12,6 +12,7 @@ A simple, responsive web app that allows users to automatically generate a forma
 ## 🚀 Live Demo
 
 
+
 ## 📁 File Structure
 
 ```
@@ -48,3 +49,14 @@ Please let me know how I can help with the transition. I wish you and the team c
 
 Sincerely,
 Juan Dela Cruz
+
+## ✒️ Author
+
+Made with ❤️ by **Chester Andrei Garcia**  
+Feel free to connect or fork the project and build on top of it.
+
+---
+
+## 📄 License
+
+This project is open-source and free to use for educational and non-commercial purposes. Attribution appreciated.
